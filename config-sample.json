@@ -1,0 +1,18 @@
+{
+	"bridge": {
+		"name": "Homebridge Pi Z",
+		"username": "9F:EF:78:20:F1:64",
+		"port": 51827,
+		"pin": "382-74-132"
+	},
+	"description": "HC-SR501 Motion Sensor",
+	"accessories": [{
+		"accessory": "HCSR501-script",
+		"name": "Motion Sensor",
+		"pinId": 17,
+		"start": "~/start.sh",
+		"stop": "~/stop.sh",
+		"model": "HC-SR501",
+		"serial": "49CE140C-9A5A-4387-B983-E92F1D376F88"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "homebridge-hcsr501-sensor-script",
+  "version": "1.0.1",
+  "description": "Execute custom scripts with hc-sr501 motion sensor",
+  "main": "index.js",
+  "dependencies": {
+    "onoff": "^1.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romaintalleu/homebridge-hcsr501-sensor-script.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge-hcsr501-script",
+    "homebridge-script",
+    "homebridge-hcsr501-sensor-script"
+  ],
+  "author": "Romain Talleu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romaintalleu/homebridge-hcsr501-sensor-script/issues"
+  },
+  "homepage": "https://github.com/romaintalleu/homebridge-hcsr501-sensor-script#readme",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
